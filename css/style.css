@@ -79,7 +79,7 @@ body{
 	background-color: rgb(0,0,0,0.7);
 	position: absolute;
 	top: 0;
-	display: flex;
+	display:none;
 	justify-content: center;
 	align-items: center;
 }
@@ -90,6 +90,7 @@ body{
 	border-radius: 4px;
 	text-align: center;
 	padding:20px;
+	position: relative;
 }
 .modal-content img{
 	width: 50px;
@@ -103,8 +104,21 @@ body{
 	width: 80px;
 	border-radius: 10px;
 }
+.close{
+	position: absolute;
+	top:0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
 .modal-content input{
 	width: 50%;
+	border-radius: 10px;
+	border:1px solid teal;
+	height: 40px;
 	display: block;
 	margin: 15px auto;
+	text-align: center;
+	font-size: 18px;
 }
