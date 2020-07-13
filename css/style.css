@@ -62,3 +62,8 @@ body{
 	width: 80px;
 	border-radius: 10px;
 }
+.section  button:hover{
+	background-color: #fff;
+	color: teal;
+	border-color: teal;
+}
